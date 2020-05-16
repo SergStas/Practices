@@ -1,0 +1,11 @@
+C:\Users\79823\source\repos\18_04_20_helpMe\_16_05_20_pract\_16_05_20_pract\bin\Debug\netcoreapp3.1\_16_05_20_pract.exe
+C:\Users\79823\source\repos\18_04_20_helpMe\_16_05_20_pract\_16_05_20_pract\bin\Debug\netcoreapp3.1\_16_05_20_pract.deps.json
+C:\Users\79823\source\repos\18_04_20_helpMe\_16_05_20_pract\_16_05_20_pract\bin\Debug\netcoreapp3.1\_16_05_20_pract.runtimeconfig.json
+C:\Users\79823\source\repos\18_04_20_helpMe\_16_05_20_pract\_16_05_20_pract\bin\Debug\netcoreapp3.1\_16_05_20_pract.runtimeconfig.dev.json
+C:\Users\79823\source\repos\18_04_20_helpMe\_16_05_20_pract\_16_05_20_pract\bin\Debug\netcoreapp3.1\_16_05_20_pract.dll
+C:\Users\79823\source\repos\18_04_20_helpMe\_16_05_20_pract\_16_05_20_pract\bin\Debug\netcoreapp3.1\_16_05_20_pract.pdb
+C:\Users\79823\source\repos\18_04_20_helpMe\_16_05_20_pract\_16_05_20_pract\obj\Debug\netcoreapp3.1\_16_05_20_pract.csprojAssemblyReference.cache
+C:\Users\79823\source\repos\18_04_20_helpMe\_16_05_20_pract\_16_05_20_pract\obj\Debug\netcoreapp3.1\_16_05_20_pract.AssemblyInfoInputs.cache
+C:\Users\79823\source\repos\18_04_20_helpMe\_16_05_20_pract\_16_05_20_pract\obj\Debug\netcoreapp3.1\_16_05_20_pract.AssemblyInfo.cs
+C:\Users\79823\source\repos\18_04_20_helpMe\_16_05_20_pract\_16_05_20_pract\obj\Debug\netcoreapp3.1\_16_05_20_pract.dll
+C:\Users\79823\source\repos\18_04_20_helpMe\_16_05_20_pract\_16_05_20_pract\obj\Debug\netcoreapp3.1\_16_05_20_pract.pdb
