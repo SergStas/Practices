@@ -23,6 +23,16 @@ namespace pract_20_05_20.Controllers
             return View();
         }
 
+        public IActionResult MainLayout()
+        {
+            return View();
+        }
+
+        public IActionResult SecondPage()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

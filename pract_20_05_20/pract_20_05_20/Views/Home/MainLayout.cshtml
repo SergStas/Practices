@@ -1,0 +1,69 @@
+﻿@{
+	var rnd = new Random();
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+		<body>
+			<script >
+				function Change(sender){
+					let bodyStyle = document.body.style;
+					switch(sender.value){
+						case "0":
+							bodyStyle.backgroundColor = "red";
+							break;
+						case "1":
+							bodyStyle.backgroundColor = "green";
+							break;
+						case "10":
+							bodyStyle.backgroundColor = "blue";
+							break;
+					}
+				}
+
+				function ToBox(sender){
+					sender.style.background = "black";
+					let box = document.getElementById("toBox");
+					box.InnerHTML += sender;
+				}
+			</script>
+			<style>
+				h1{
+					color: #ff0;
+					background-color: #00f;
+					width: 150px;
+				}
+				#first{
+					color: #fff;
+					background-color: #000;
+				}
+				.control{
+					background-color: #f00;
+				}
+				#toBox{
+					background-color: @(DateTime.Now.Second % 2 == 0 ? "green" : "yellow");
+					width: 100px;
+					height: 100px;
+					display: inline-block;
+				}
+			</style>
+			<h1 onclick="ToBox(this)">header</h1>
+			<p>text</p>
+			<select onchange="Change(this)">
+				<option id="first" value="0">@rnd.Next(0,Int32.MaxValue)</option>
+				<option value="1">@rnd.Next(0,Int32.MaxValue)</option>
+				<option value="10">@rnd.Next(0,Int32.MaxValue)</option>
+			</select>
+			<br>
+			<input type="button" class="control" value="imabutton">
+			<br>
+			<a href="SecondPage">goTo</a>
+			<br>
+			<div id="toBox">
+				
+			</div>
+		</body>
+</html>
