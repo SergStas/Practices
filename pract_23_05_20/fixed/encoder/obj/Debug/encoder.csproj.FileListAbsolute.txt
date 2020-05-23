@@ -1,0 +1,6 @@
+D:\git\Practices\pract_23_05_20\fixed\encoder\bin\Debug\encoder.exe.config
+D:\git\Practices\pract_23_05_20\fixed\encoder\bin\Debug\encoder.exe
+D:\git\Practices\pract_23_05_20\fixed\encoder\bin\Debug\encoder.pdb
+D:\git\Practices\pract_23_05_20\fixed\encoder\obj\Debug\encoder.csprojAssemblyReference.cache
+D:\git\Practices\pract_23_05_20\fixed\encoder\obj\Debug\encoder.exe
+D:\git\Practices\pract_23_05_20\fixed\encoder\obj\Debug\encoder.pdb
