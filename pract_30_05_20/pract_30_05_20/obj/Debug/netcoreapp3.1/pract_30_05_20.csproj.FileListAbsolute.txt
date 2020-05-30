@@ -1,0 +1,11 @@
+D:\git\Practices\pract_30_05_20\pract_30_05_20\obj\Debug\netcoreapp3.1\pract_30_05_20.csprojAssemblyReference.cache
+D:\git\Practices\pract_30_05_20\pract_30_05_20\obj\Debug\netcoreapp3.1\pract_30_05_20.AssemblyInfoInputs.cache
+D:\git\Practices\pract_30_05_20\pract_30_05_20\obj\Debug\netcoreapp3.1\pract_30_05_20.AssemblyInfo.cs
+D:\git\Practices\pract_30_05_20\pract_30_05_20\bin\Debug\netcoreapp3.1\pract_30_05_20.exe
+D:\git\Practices\pract_30_05_20\pract_30_05_20\bin\Debug\netcoreapp3.1\pract_30_05_20.deps.json
+D:\git\Practices\pract_30_05_20\pract_30_05_20\bin\Debug\netcoreapp3.1\pract_30_05_20.runtimeconfig.json
+D:\git\Practices\pract_30_05_20\pract_30_05_20\bin\Debug\netcoreapp3.1\pract_30_05_20.runtimeconfig.dev.json
+D:\git\Practices\pract_30_05_20\pract_30_05_20\bin\Debug\netcoreapp3.1\pract_30_05_20.dll
+D:\git\Practices\pract_30_05_20\pract_30_05_20\bin\Debug\netcoreapp3.1\pract_30_05_20.pdb
+D:\git\Practices\pract_30_05_20\pract_30_05_20\obj\Debug\netcoreapp3.1\pract_30_05_20.dll
+D:\git\Practices\pract_30_05_20\pract_30_05_20\obj\Debug\netcoreapp3.1\pract_30_05_20.pdb
