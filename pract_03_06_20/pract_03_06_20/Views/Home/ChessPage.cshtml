@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function Click(sender) {
+            let first = sender.id;
+            let second = document.getElementById("to").innerText;
+            UpdateFrom(second);
+            UpdateTo(first);
+        }
+        
+        function UpdateTo(newArg) {
+            let toBox = document.getElementById("to");
+            toBox.innerText = newArg;
+        }
+        
+        function UpdateFrom(newArg) {
+            let fromBox = document.getElementById("from");
+            fromBox.innerText = newArg;
+        }
+        
+        function Switch() {
+          
+        }
+        
+        function Send() {
+            let req = new XMLHttpRequest();
+            let fromPos = document.getElementById("from").innerText;
+            let toPos = document.getElementById("to").innerText;
+            let state = document.getElementById("selector").value;
+            req.open("GET", `/Home/CheckStep?arg=${state}_${fromPos}_${toPos}`);
+            req.send();
+            req.onreadystatechange = function() {
+                if(req.readyState === 4) {
+                    document.getElementById("answer").innerText = req.responseText;
+                }
+            };
+        }
+    </script>
+    <style>
+        button{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <table class="field">
+        <tr><td><button id="a1" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="a2" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="a3" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="a4" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="a5" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="a6" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="a7" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="a8" style="background-color: white;" onclick="Click(this)"></button></td></tr>
+        <tr><td><button id="b1" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="b2" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="b3" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="b4" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="b5" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="b6" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="b7" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="b8" style="background-color: black;" onclick="Click(this)"></button></td></tr>
+        <tr><td><button id="c1" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="c2" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="c3" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="c4" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="c5" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="c6" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="c7" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="c8" style="background-color: white;" onclick="Click(this)"></button></td></tr>
+        <tr><td><button id="d1" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="d2" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="d3" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="d4" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="d5" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="d6" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="d7" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="d8" style="background-color: black;" onclick="Click(this)"></button></td></tr>
+        <tr><td><button id="e1" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="e2" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="e3" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="e4" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="e5" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="e6" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="e7" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="e8" style="background-color: white;" onclick="Click(this)"></button></td></tr>
+        <tr><td><button id="f1" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="f2" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="f3" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="f4" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="f5" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="f6" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="f7" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="f8" style="background-color: black;" onclick="Click(this)"></button></td></tr>
+        <tr><td><button id="g1" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="g2" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="g3" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="g4" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="g5" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="g6" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="g7" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="g8" style="background-color: white;" onclick="Click(this)"></button></td></tr>
+        <tr><td><button id="h1" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="h2" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="h3" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="h4" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="h5" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="h6" style="background-color: black;" onclick="Click(this)"></button>
+            <td/><td><button id="h7" style="background-color: white;" onclick="Click(this)"></button>
+            <td/><td><button id="h8" style="background-color: black;" onclick="Click(this)"></button></td></tr>
+    </table>
+</div>
+<div>
+    <select onchange="" id="selector">
+        <option value="p">Pawn</option>
+        <option value="r">Rook</option>
+        <option value="b">Bishop</option>
+        <option value="n">Knight</option>
+        <option value="k">King</option>
+        <option value="q">Queen</option>
+</select>
+</div>
+<div class="info">
+    <div id="from">from</div>
+    <div id="to">to</div>
+    <button id="send" onclick="Send()">Send</button>
+    <div id="answer"></div>
+</div>
+</body>
+</html>
