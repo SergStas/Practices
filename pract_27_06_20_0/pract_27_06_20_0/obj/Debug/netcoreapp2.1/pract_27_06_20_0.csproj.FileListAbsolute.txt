@@ -1,0 +1,10 @@
+D:\git\Practices\pract_27_06_20_0\pract_27_06_20_0\bin\Debug\netcoreapp2.1\pract_27_06_20_0.deps.json
+D:\git\Practices\pract_27_06_20_0\pract_27_06_20_0\bin\Debug\netcoreapp2.1\pract_27_06_20_0.runtimeconfig.json
+D:\git\Practices\pract_27_06_20_0\pract_27_06_20_0\bin\Debug\netcoreapp2.1\pract_27_06_20_0.runtimeconfig.dev.json
+D:\git\Practices\pract_27_06_20_0\pract_27_06_20_0\bin\Debug\netcoreapp2.1\pract_27_06_20_0.dll
+D:\git\Practices\pract_27_06_20_0\pract_27_06_20_0\bin\Debug\netcoreapp2.1\pract_27_06_20_0.pdb
+D:\git\Practices\pract_27_06_20_0\pract_27_06_20_0\obj\Debug\netcoreapp2.1\pract_27_06_20_0.csprojAssemblyReference.cache
+D:\git\Practices\pract_27_06_20_0\pract_27_06_20_0\obj\Debug\netcoreapp2.1\pract_27_06_20_0.AssemblyInfoInputs.cache
+D:\git\Practices\pract_27_06_20_0\pract_27_06_20_0\obj\Debug\netcoreapp2.1\pract_27_06_20_0.AssemblyInfo.cs
+D:\git\Practices\pract_27_06_20_0\pract_27_06_20_0\obj\Debug\netcoreapp2.1\pract_27_06_20_0.dll
+D:\git\Practices\pract_27_06_20_0\pract_27_06_20_0\obj\Debug\netcoreapp2.1\pract_27_06_20_0.pdb
