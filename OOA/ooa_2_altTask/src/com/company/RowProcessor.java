@@ -1,7 +1,6 @@
 package com.company;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Stack;
 
 public class RowProcessor {
@@ -42,7 +41,6 @@ public class RowProcessor {
     }
 
     private static boolean opHasHigherOrSamePriority(char c1, char c2) {
-        List<String> high = Arrays.asList("*", "/");
-        return high.contains(Character.toString(c1)) || !high.contains(Character.toString(c2));
+        return Arrays.asList("*", "/").contains(Character.toString(c1)) || !Arrays.asList("*", "/").contains(Character.toString(c2));
     }
 }
