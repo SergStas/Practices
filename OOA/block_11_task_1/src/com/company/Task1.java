@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main {
+public class Task1 {
     static int count = 0;
 
     static class LuckyThread extends Thread {
