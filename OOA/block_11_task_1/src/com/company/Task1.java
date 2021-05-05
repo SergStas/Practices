@@ -1,30 +1,20 @@
 package com.company;
 
 public class Task1 {
-    static int count = 0;
+    private static final IntState _x = new IntState();
+    private static final IntState _result = new IntState();
 
     static class LuckyThread extends Thread {
         @Override
         public void run() {
-            while (LuckyCounterState.getX() < 999999)
-                LuckyCounterState.iterate();
-        }
-    }
-
-    private static class LuckyCounterState {
-        private static int x;
-
-        static synchronized void iterate() {
-            x++;
-            if ((x % 10) + (x / 10) % 10 + (x / 100) % 10 != (x / 1000) % 10 + (x / 10000) % 10 + (x / 100000) % 10 ||
-                x > 999999)
-                return;
-            System.out.println(x);
-            count++;
-        }
-
-        static synchronized int getX() {
-            return x;
+            int curX;
+            while ((curX = _x.inc()) < 999999) {
+                if ((curX % 10) + (curX / 10) % 10 + (curX / 100) % 10 ==
+                        (curX / 1000) % 10 + (curX / 10000) % 10 + (curX / 100000) % 10) {
+                    System.out.println(curX);
+                    _result.inc();
+                }
+            }
         }
     }
 
@@ -38,6 +28,18 @@ public class Task1 {
         t1.join();
         t2.join();
         t3.join();
-        System.out.println("Total: " + count);
+        System.out.println("Total: " + _result.get());
+    }
+
+    private static class IntState {
+        private int _value;
+
+        synchronized int inc() {
+            return _value++;
+        }
+
+        synchronized int get() {
+            return _value;
+        }
     }
 }
